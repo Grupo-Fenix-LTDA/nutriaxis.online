@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola da Cidade | Arquitetura e Urbanismo</title>
+
+    <!-- Fontes Google: Archivo (Estrutural) e Inter (Leitura) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">
+                ESCOLA DA CIDADE
+                <span>Arquitetura e Urbanismo</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">A Escola</a></li>
+                <li><a href="#cursos">Graduação</a></li>
+                <li><a href="#humanidades">Ensino Médio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>
+                    PENSAR A<br>
+                    <span>CIDADE</span><br>
+                    CONSTRUIR O<br>
+                    FUTURO
+                </h1>
+                <p>Uma associação de ensino, pesquisa e cultura. Formando arquitetos e cidadãos no centro de São Paulo
+                    desde 1997.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#cursos" class="btn">Nossos Cursos</a>
+                    <a href="#humanidades" class="btn btn-outline">Colégio</a>
+                </div>
+            </div>
+            <div class="hero-img"></div> <!-- Imagem via CSS -->
+        </div>
+        <div class="lines"></div>
+    </section>
+
+    <!-- Cursos e Atividades (CNAE Data) -->
+    <section id="cursos" class="courses">
+        <div class="courses-grid">
+            <!-- Graduação -->
+            <div class="course-card">
+                <div class="course-number">01</div>
+                <h3>Graduação</h3>
+                <p>Ensino Superior em Arquitetura e Urbanismo. Uma formação humanista e técnica voltada para as questões
+                    contemporâneas das cidades.</p>
+                <a href="#" class="link-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Pós-Graduação / Técnico -->
+            <div class="course-card">
+                <div class="course-number">02</div>
+                <h3>Técnico e Livre</h3>
+                <p>Educação profissional e cursos livres. Atividades de ensino de arte, cultura e técnica para ampliação
+                    de repertório.</p>
+                <a href="#" class="link-arrow">Ver Opções <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Editora -->
+            <div class="course-card">
+                <div class="course-number">03</div>
+                <h3>Editora da Cidade</h3>
+                <p>Edição de livros e publicações. Produção intelectual e disseminação de conhecimento arquitetônico e
+                    urbanístico.</p>
+                <a href="#" class="link-arrow">Catálogo <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Cultura -->
+            <div class="course-card">
+                <div class="course-number">04</div>
+                <h3>Cultura</h3>
+                <p>Gestão de espaços para artes cênicas e exposições. A escola como um polo cultural aberto à sociedade.
+                </p>
+                <a href="#" class="link-arrow">Agenda <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Escola de Humanidades (Destaque PDF) -->
+    <section id="humanidades" class="section-padding humanities">
+        <div class="container humanities-content">
+            <div class="humanities-text">
+                <h2>
+                    <span>FABRICA</span>
+                    Escola de Humanidades João Filgueiras Lima
+                </h2>
+                <p>O Ensino Médio da Escola da Cidade. Uma proposta pedagógica integrada às artes, humanidades e à
+                    técnica, preparando jovens para uma leitura crítica do mundo.</p>
+                <a href="#" class="btn"
+                    style="background: var(--white); color: var(--text-color); border: none;">Conheça o Projeto</a>
+            </div>
+            <div class="humanities-img"></div>
+        </div>
+    </section>
+
+    <!-- Informações Institucionais -->
+    <section id="sobre" class="section-padding info-section">
+        <div class="container">
+            <h2 class="section-title">Institucional</h2>
+            <div class="info-container">
+                <div class="info-block">
+                    <h3>Associação</h3>
+                    <p>A <strong>Associação Escola da Cidade</strong> é uma entidade privada sem fins lucrativos,
+                        fundada em 1997. Nosso compromisso é com a qualidade do ensino e a promoção da cultura
+                        arquitetônica.</p>
+                    <span class="cnpj-tag">CNPJ: 01.843.613/0001-53</span>
+                </div>
+                <div class="info-block">
+                    <h3>Dados de Contato</h3>
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rua General Jardim, 65/51 - Vila Buarque<br>São Paulo - SP, 01223-011</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 3258-8108</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contabilidade@escoladacidade.edu.br</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Fundada em 11/04/1997</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização (Map) -->
+    <section id="contato" class="location">
+        <div class="location-info">
+            <h2>Visite-nos</h2>
+            <div class="address-box">
+                <p>Vila Buarque</p>
+                <span>O coração criativo de São Paulo.</span>
+                <p>Acesso</p>
+                <span>Próximo ao Metrô República e Santa Cecília.</span>
+                <a href="mailto:contabilidade@escoladacidade.edu.br" class="btn"
+                    style="background: var(--text-color); color: var(--white); border: 2px solid var(--text-color);">Fale
+                    Conosco</a>
+            </div>
+        </div>
+        <div class="map-wrapper">
+            <!-- Mapa centralizado na Rua General Jardim, 65 -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.380645672956!2d-46.64756542466958!3d-23.54978697880811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58438d011505%3A0x8898950f82877a5d!2sR.%20Gen.%20Jardim%2C%2065%20-%20Vila%20Buarque%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001223-011!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">ESCOLA DA CIDADE</div>
+                    <p>Arquitetura e Urbanismo</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="legal">
+                <span>&copy; 2026 Associação Escola da Cidade.</span>
+                <span>Desenvolvido com base em dados públicos.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
